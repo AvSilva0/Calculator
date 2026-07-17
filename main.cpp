@@ -2,7 +2,9 @@
 
 int main (){
 
-//soma
+    int a, b;
+    float result;
+    char escolha;
 
 //subtracao
 
