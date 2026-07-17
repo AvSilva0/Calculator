@@ -2,13 +2,22 @@
 
 int main (){
 
-//soma
+    int main (){
 
-//subtracao
+    int a,b,result;
+    char escolha;
 
-//mult
+    scanf("%d %d",&a,&b);
 
-//divisiao
-
+    printf("Escolha a operacao: + - * /\n");
+    scanf(" %c",&escolha);
+    
+    if(escolha=="-"){
+    result = a + b;
+    }
+    //subtracao
+    if(escolha=="+"){
+    result = a + b;
+    }
     return 0;
 }
