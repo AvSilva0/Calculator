@@ -2,13 +2,21 @@
 
 int main (){
 
-//soma
+    int a,b,result;
+    char escolha;
 
-//subtracao
+    scanf("%d %d",&a,&b);
 
+    printf("Escolha a operacao: + - * /\n");
+    scanf(" %c",&escolha);
 //mult
-
-//divisiao
+    if(escolha == '*'){
+        result = a * b;
+    }
+//divisao
+    if(escolha == '/'){
+        result = a / b;
+    
 
     return 0;
 }
