@@ -18,5 +18,15 @@ int main (){
         result = a / b;
     
 
+    printf("Escolha a operacao: + - * /\n");
+    scanf(" %c",&escolha);
+    
+    if(escolha=="-"){
+    result = a + b;
+    }
+    //subtracao
+    if(escolha=="+"){
+    result = a + b;
+    }
     return 0;
 }
