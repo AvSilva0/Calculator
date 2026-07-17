@@ -2,7 +2,8 @@
 
 int main (){
 
-    int a,b,result;
+    int a,b;
+    float result;
     char escolha;
 
     scanf("%d %d",&a,&b);
@@ -16,17 +17,17 @@ int main (){
 //divisao
     if(escolha == '/'){
         result = a / b;
-    
+    }
+//Soma
+    if(escolha == '+'){
+        result = a + b;
+    }
+//subtracao
+    if(escolha == '-'){
+        result = a - b;
+    }
 
-    printf("Escolha a operacao: + - * /\n");
-    scanf(" %c",&escolha);
+    printf(result);
     
-    if(escolha=="-"){
-    result = a + b;
-    }
-    //subtracao
-    if(escolha=="+"){
-    result = a + b;
-    }
     return 0;
 }
